@@ -38,5 +38,18 @@ Hugo
 GitHub Pages GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.</description>
     </item>
     
+    <item>
+      <title>GitHub Pages &#43; Hugo</title>
+      <link>https://hunkardoner.github.io/posts/post-3/</link>
+      <pubDate>Sun, 18 Jun 2023 12:00:17 +0200</pubDate>
+      
+      <guid>https://hunkardoner.github.io/posts/post-3/</guid>
+      <description>Introduction In this post we will create a website using Hugo and host it as a GitHub Pages project and automate the whole process with Github Actions.
+This is an update from an earlier post I wrote on my Medium blog -&amp;gt; &amp;ldquo;Hugo in 10 Minutes&amp;rdquo;
+Prerequisites A GitHub account
+Hugo
+GitHub Pages GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.</description>
+    </item>
+    
   </channel>
 </rss>
