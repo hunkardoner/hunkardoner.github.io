@@ -3,6 +3,7 @@ title: blog.hunk.ar
 paginate: 5
 theme: PaperMod
 publishDir: "docs"
+languageCode: "tr-TR"
 
 enableRobotsTXT: true
 buildDrafts: false
