@@ -1,5 +1,5 @@
 baseURL: "https://hunkardoner.github.io/"
-title: O11y Cloud.com
+title: blog.hunk.ar
 paginate: 5
 theme: PaperMod
 publishDir: "docs"
@@ -17,7 +17,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: O11y Cloud.com
+  title: blog.hunk.ar
   description: "Hoşgeldiniz."
   keywords: [Blog, Portfolio, Observability]
   author: Me
@@ -75,7 +75,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to O11y Cloud.com
+    Content: Welcome to blog.hunk.ar
 
   socialIcons:
     - name: medium

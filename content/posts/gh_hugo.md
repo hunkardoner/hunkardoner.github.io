@@ -7,7 +7,7 @@ draft: false
 ### Introduction
 In this post we will create a website using Hugo and host it as a GitHub Pages project and automate the whole process with Github Actions.
 
-This is an update from an earlier post I wrote on my Medium blog -> ["Hugo in 10 Minutes"](https://medium.com/@magstherdev/hugo-in-10-minutes-2dc4ac70ee11)
+This is an update from an earlier post I wrote on my Medium blog -> ["Hugo in 10 Minutes"](https://medium.com/@hunkar/hugo-in-10-minutes-2dc4ac70ee11)
 
 
 
@@ -177,7 +177,7 @@ The first things that you probably want to change are the baseURL, title and the
 
 ```
 baseURL: "https://hunkardoner.github.io/" #This value must begin with the protocol and end with a slash, as shown above.
-title: O11y Cloud.com
+title: blog.hunk.ar
 paginate: 5
 theme: PaperMod
 ```
