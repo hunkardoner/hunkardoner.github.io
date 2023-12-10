@@ -122,7 +122,7 @@ menu:
     #  url: /tags/
     #  weight: 20
     - identifier: example
-      name: Me on Medium
+      name: Medium'da Takip Edebilirsiniz
       url: https://medium.com/@hunkar
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
