@@ -18,12 +18,12 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: O11y Cloud.com
-  description: "Welcome to O11yCloud.com"
+  description: "Hoşgeldiniz."
   keywords: [Blog, Portfolio, Observability]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  DateFormat: "2 January 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -79,11 +79,9 @@ params:
 
   socialIcons:
     - name: medium
-      url: "https://medium.com/@magstherdev"
-    - name: twitter
-      url: "https://twitter.com/magsther"
+      url: "https://medium.com/@hunkar"
     - name: github
-      url: "https://github.com/magsther/magsther.github.io"
+      url: "https://github.com/hunkardoner"
 
   analytics:
     google:
@@ -125,7 +123,7 @@ menu:
     #  weight: 20
     - identifier: example
       name: Me on Medium
-      url: https://medium.com/@magstherdev
+      url: https://medium.com/@hunkar
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

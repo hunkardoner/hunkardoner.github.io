@@ -36,7 +36,7 @@ There are also some limitations outlined [here](https://docs.github.com/en/pages
 GitHub provides a good [quick-start](https://docs.github.com/en/pages/quickstart), so I won't go much in detail about that.
 It usually comes down to these steps:
 
-1. Create a repository and name it `username.github.io` as the repository name. (In my case, it will be `magsther.github.io`) The website will be published at https://magsther.github.io/
+1. Create a repository and name it `username.github.io` as the repository name. (In my case, it will be `magsther.github.io`) The website will be published at https://hunkardoner.github.io/
 2. Clone the repository to your computer.
 3. Cd into the folder
 4. Add an index.html
@@ -176,7 +176,7 @@ To further customize your new blog, just play around with the configuration file
 The first things that you probably want to change are the baseURL, title and the theme
 
 ```
-baseURL: "https://magsther.github.io/" #This value must begin with the protocol and end with a slash, as shown above.
+baseURL: "https://hunkardoner.github.io/" #This value must begin with the protocol and end with a slash, as shown above.
 title: O11y Cloud.com
 paginate: 5
 theme: PaperMod
