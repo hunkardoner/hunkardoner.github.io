@@ -1,6 +1,6 @@
 ---
 title: "Infrastructure as Code (IaC) & Terraform Nedir?"
-date: 2023-12-11T09:03:20-08:00
+date: 2023-12-10T09:03:20-08:00
 draft: false
 ---
 

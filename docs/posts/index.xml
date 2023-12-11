@@ -10,11 +10,12 @@
       <link>https://hunkardoner.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tr-TR</language><atom:link href="https://hunkardoner.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>tr-TR</language>
+    <lastBuildDate>Sun, 10 Dec 2023 09:03:20 -0800</lastBuildDate><atom:link href="https://hunkardoner.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>Infrastructure as Code (IaC) &amp; Terraform Nedir?</title>
       <link>https://hunkardoner.github.io/posts/ias-nedir/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Dec 2023 09:03:20 -0800</pubDate>
       
       <guid>https://hunkardoner.github.io/posts/ias-nedir/</guid>
       <description>Altyapı Kodlama (IaC) araçları, altyapıyı grafiksel bir kullanıcı arayüzü yerine yapılandırma dosyaları aracılığıyla yönetmenizi sağlar. IaC, kaynak konfigürasyonlarını tanımlayarak altyapıyı güvenli, tutarlı ve tekrarlanabilir bir şekilde oluşturmanıza, değiştirmenize ve yönetmenize olanak tanır; bu konfigürasyonları sürümleyebilir, yeniden kullanabilir ve paylaşabilirsiniz.
