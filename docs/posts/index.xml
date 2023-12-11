@@ -10,45 +10,15 @@
       <link>https://hunkardoner.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 18 Jun 2023 12:00:17 +0200</lastBuildDate><atom:link href="https://hunkardoner.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>tr-TR</language><atom:link href="https://hunkardoner.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GitHub Pages &#43; Hugo</title>
-      <link>https://hunkardoner.github.io/posts/gh_hugo/</link>
-      <pubDate>Sun, 18 Jun 2023 12:00:17 +0200</pubDate>
+      <title></title>
+      <link>https://hunkardoner.github.io/posts/ias-nedir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hunkardoner.github.io/posts/gh_hugo/</guid>
-      <description>Introduction In this post we will create a website using Hugo and host it as a GitHub Pages project and automate the whole process with Github Actions.
-This is an update from an earlier post I wrote on my Medium blog -&amp;gt; &amp;ldquo;Hugo in 10 Minutes&amp;rdquo;
-Prerequisites A GitHub account
-Hugo
-GitHub Pages GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.</description>
-    </item>
-    
-    <item>
-      <title>GitHub Pages &#43; Hugo</title>
-      <link>https://hunkardoner.github.io/posts/post-2/</link>
-      <pubDate>Sun, 18 Jun 2023 12:00:17 +0200</pubDate>
-      
-      <guid>https://hunkardoner.github.io/posts/post-2/</guid>
-      <description>Introduction In this post we will create a website using Hugo and host it as a GitHub Pages project and automate the whole process with Github Actions.
-This is an update from an earlier post I wrote on my Medium blog -&amp;gt; &amp;ldquo;Hugo in 10 Minutes&amp;rdquo;
-Prerequisites A GitHub account
-Hugo
-GitHub Pages GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.</description>
-    </item>
-    
-    <item>
-      <title>GitHub Pages &#43; Hugo</title>
-      <link>https://hunkardoner.github.io/posts/post-3/</link>
-      <pubDate>Sun, 18 Jun 2023 12:00:17 +0200</pubDate>
-      
-      <guid>https://hunkardoner.github.io/posts/post-3/</guid>
-      <description>Introduction In this post we will create a website using Hugo and host it as a GitHub Pages project and automate the whole process with Github Actions.
-This is an update from an earlier post I wrote on my Medium blog -&amp;gt; &amp;ldquo;Hugo in 10 Minutes&amp;rdquo;
-Prerequisites A GitHub account
-Hugo
-GitHub Pages GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.</description>
+      <guid>https://hunkardoner.github.io/posts/ias-nedir/</guid>
+      <description>Altyapı Kodlama (IaC) araçları, altyapıyı grafiksel bir kullanıcı arayüzü yerine yapılandırma dosyaları aracılığıyla yönetmenizi sağlar. IaC, kaynak konfigürasyonlarını tanımlayarak altyapıyı güvenli, tutarlı ve tekrarlanabilir bir şekilde oluşturmanıza, değiştirmenize ve yönetmenize olanak tanır; bu konfigürasyonları sürümleyebilir, yeniden kullanabilir ve paylaşabilirsiniz.
+Terraform, HashiCorp&amp;rsquo;un altyapı kodlama aracıdır. İnsan tarafından okunabilir, bildirgesel yapılandırma dosyalarında kaynakları ve altyapıyı tanımlamanıza olanak tanır ve altyapınızın yaşam döngüsünü yönetir. Terraform kullanmanın manuel olarak altyapınızı yönetmeye göre birkaç avantajı vardır:</description>
     </item>
     
   </channel>
