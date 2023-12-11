@@ -75,8 +75,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to blog.hunk.ar
+    Title: "Hünkar Döner \U0001F44B"
+    Content: DevOps & Development için Türkçe içerik geliştirmeyi hedefliyorum.
 
   socialIcons:
     - name: medium
