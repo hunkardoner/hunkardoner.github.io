@@ -68,9 +68,9 @@ params:
     imageHeight: 120
     imageTitle: my image
     buttons:
-      - name: Posts
+      - name: Yazılar
         url: posts
-      - name: Tags
+      - name: Etiketler
         url: tags
 
   # home-info mode
@@ -99,7 +99,7 @@ params:
 
   editPost:
     URL: "https://github.com/hunkardoner/hunkardoner.github.io/content"
-    Text: "Suggest Changes" # edit text
+    Text: "Değişiklik Öner" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search

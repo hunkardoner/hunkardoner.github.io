@@ -2,6 +2,7 @@
 title: "Infrastructure as Code (IaC) & Terraform Nedir?"
 date: 2023-12-10T09:03:20-08:00
 draft: false
+tag: ["terraform"]
 ---
 
 Altyapı Kodlama (IaC) araçları, altyapıyı grafiksel bir kullanıcı arayüzü yerine yapılandırma dosyaları aracılığıyla yönetmenizi sağlar. IaC, kaynak konfigürasyonlarını tanımlayarak altyapıyı güvenli, tutarlı ve tekrarlanabilir bir şekilde oluşturmanıza, değiştirmenize ve yönetmenize olanak tanır; bu konfigürasyonları sürümleyebilir, yeniden kullanabilir ve paylaşabilirsiniz.
