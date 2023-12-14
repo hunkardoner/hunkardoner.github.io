@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on blog.hunk.ar</title>
-    <link>https://hunkardoner.github.io/posts/</link>
-    <description>Recent content in Posts on blog.hunk.ar</description>
+    <title>Posts on Hünkar Döner</title>
+    <link>https://blog.hunk.ar/posts/</link>
+    <description>Recent content in Posts on Hünkar Döner</description>
     <image>
-      <title>blog.hunk.ar</title>
-      <url>https://hunkardoner.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://hunkardoner.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>Hünkar Döner</title>
+      <url>https://blog.hunk.ar/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.hunk.ar/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
-    <lastBuildDate>Sun, 10 Dec 2023 09:03:20 -0800</lastBuildDate><atom:link href="https://hunkardoner.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Dec 2023 09:03:20 -0800</lastBuildDate><atom:link href="https://blog.hunk.ar/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Infrastructure as Code (IaC) &amp; Terraform Nedir?</title>
-      <link>https://hunkardoner.github.io/posts/ias-nedir/</link>
+      <link>https://blog.hunk.ar/posts/ias-nedir/</link>
       <pubDate>Sun, 10 Dec 2023 09:03:20 -0800</pubDate>
       
-      <guid>https://hunkardoner.github.io/posts/ias-nedir/</guid>
+      <guid>https://blog.hunk.ar/posts/ias-nedir/</guid>
       <description>Altyapı Kodlama (IaC) araçları, altyapıyı grafiksel bir kullanıcı arayüzü yerine yapılandırma dosyaları aracılığıyla yönetmenizi sağlar. IaC, kaynak konfigürasyonlarını tanımlayarak altyapıyı güvenli, tutarlı ve tekrarlanabilir bir şekilde oluşturmanıza, değiştirmenize ve yönetmenize olanak tanır; bu konfigürasyonları sürümleyebilir, yeniden kullanabilir ve paylaşabilirsiniz.
 Terraform, HashiCorp&amp;rsquo;un altyapı kodlama aracıdır. İnsan tarafından okunabilir, bildirgesel yapılandırma dosyalarında kaynakları ve altyapıyı tanımlamanıza olanak tanır ve altyapınızın yaşam döngüsünü yönetir. Terraform kullanmanın manuel olarak altyapınızı yönetmeye göre birkaç avantajı vardır:</description>
     </item>
