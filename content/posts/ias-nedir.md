@@ -1,5 +1,5 @@
 ---
-title: "Infrastructure as Code (IaC) & Terraform Nedir?"
+title: "Terraform 101: Infrastructure as Code (IaC) Nedir?"
 date: 2023-12-10T09:03:20-08:00
 draft: false
 tag: ["terraform"]
