@@ -11,13 +11,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
-    <lastBuildDate>Sun, 10 Dec 2023 09:03:20 -0800</lastBuildDate><atom:link href="https://blog.hunk.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Dec 2023 09:03:20 -0800</lastBuildDate><atom:link href="https://blog.hunk.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform 101: Kurulum</title>
+      <link>https://blog.hunk.ar/posts/terraform-kurulum/</link>
+      <pubDate>Thu, 14 Dec 2023 09:03:20 -0800</pubDate>
+      
+      <guid>https://blog.hunk.ar/posts/terraform-kurulum/</guid>
+      <description>Bir önceki yazımızda IaC nedir, ne değildir, Terraform ne işe yarar gibi kısa bir özet geçtik. Yazılarımın asıl kaynağı terraform.io platformu. Oradaki dökümantasyonu Türkçe&amp;rsquo;ye çevirme ve ihtiyacımız olanları öne çıkarma taraftarıyım. Kafa karıştırma ihtimali olan kısımları dahil etmeyeceğim seriye. En basit düzeyde, ihtiyacımız kadar kullanacağız her aracı. Şahsi mentalitem bu, size dayatma gibi bir planım yok. Anlatacağım tüm yazılardaki araçların, dillerin hepsinin resmi dökümantasyonlarında daha fazla bilgiye erişebilirsiniz. Benim buradaki amacım DevOps Türkçe kaynağını arttırabilmek.</description>
+    </item>
+    
     <item>
       <title>Terraform 101: Infrastructure as Code (IaC) Nedir?</title>
-      <link>https://blog.hunk.ar/posts/ias-nedir/</link>
+      <link>https://blog.hunk.ar/posts/iac-nedir/</link>
       <pubDate>Sun, 10 Dec 2023 09:03:20 -0800</pubDate>
       
-      <guid>https://blog.hunk.ar/posts/ias-nedir/</guid>
+      <guid>https://blog.hunk.ar/posts/iac-nedir/</guid>
       <description>Altyapı Kodlama (IaC) araçları, altyapıyı grafiksel bir kullanıcı arayüzü yerine yapılandırma dosyaları aracılığıyla yönetmenizi sağlar. IaC, kaynak konfigürasyonlarını tanımlayarak altyapıyı güvenli, tutarlı ve tekrarlanabilir bir şekilde oluşturmanıza, değiştirmenize ve yönetmenize olanak tanır; bu konfigürasyonları sürümleyebilir, yeniden kullanabilir ve paylaşabilirsiniz.
 Terraform, HashiCorp&amp;rsquo;un altyapı kodlama aracıdır. İnsan tarafından okunabilir, bildirgesel yapılandırma dosyalarında kaynakları ve altyapıyı tanımlamanıza olanak tanır ve altyapınızın yaşam döngüsünü yönetir. Terraform kullanmanın manuel olarak altyapınızı yönetmeye göre birkaç avantajı vardır:</description>
     </item>
