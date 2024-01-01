@@ -11,7 +11,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr-TR</language>
-    <lastBuildDate>Thu, 14 Dec 2023 09:03:20 -0800</lastBuildDate><atom:link href="https://blog.hunk.ar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Dec 2023 09:03:20 -0800</lastBuildDate><atom:link href="https://blog.hunk.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform 101: İlk Adımlar</title>
+      <link>https://blog.hunk.ar/posts/ilk-adimlar/</link>
+      <pubDate>Sun, 31 Dec 2023 09:03:20 -0800</pubDate>
+      
+      <guid>https://blog.hunk.ar/posts/ilk-adimlar/</guid>
+      <description>Bir önceki yazıda Terraform kurulumunu da tamamladık. Artık altyapınızı kodla yönetme işlemine hazırsınız demektir. Biz başlangıç tutoriallarımıza AWS servisiyle devam edeceğiz. İhtiyaç duymayana kadar tüm anlatımlarımız AWS üzerine olacaktır. Ancak yapısal benzerlikler çok fazla, o yüzden providerın hangisi olduğuna çok takılmanıza gerek yok. Var da yok ama olsun. İhtiyaç dahilinde Google Cloud, Azure gibi providerlar için de tutoriallar yapabiliriz. Konuyu çok uzatmadan devam edelim.
+Kodlamaya başlamadan önceki ihtiyaçlar Terraform CLI (ki bunu bir önceki yazıda kurduk) AWS CLI (buradan adım adım öğrenebilirsiniz kurulumu, tıkla) Son olarak AWS erişimi için Access Key ve Secret Key Terraform CLI ve AWS CLI kurulumu oldukça basit aşamalar.</description>
+    </item>
+    
     <item>
       <title>Terraform 101: Kurulum</title>
       <link>https://blog.hunk.ar/posts/terraform-kurulum/</link>
