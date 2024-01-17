@@ -122,6 +122,60 @@ Evet yazdığımız kodu formatladık, sonrasında kontrol ettik ve komutumuz ha
 terraform apply      # Kodlarım hazır hadi providerda bunları çalıştıralım demek
 ```
 
-Bu komut sonrasında AWS ile makinemiz konuşmaya başlayacak demektir.
+Bu komut sonrasında AWS ile makinemiz konuşmaya başlayacak demektir. Bize vereceği çıktı GIT kullanan insanlar için tanıdık bir çıktı olacaktır. 1 ekleme, 0 değişme, 0 yok etme gibi değişik bir çıktısı var şu şekilde.
+
+```plaintext
+Terraform used the selected providers to generate the following execution plan.
+Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # aws_instance.app_server will be created
+  + resource "aws_instance" "app_server" {
+      + ami                          = "ami-830c94e3"
+      + arn                          = (known after apply)
+##...
+
+Plan: 1 to add, 0 to change, 0 to destroy.
+
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value:
+```
+
+Yanıt olarak buna yes dediğimiz taktirde AWS'de oluşturma işlemleri başlayacaktır.
+
+```plaintext
+  Enter a value: yes
+
+aws_instance.app_server: Creating...
+aws_instance.app_server: Still creating... [10s elapsed]
+aws_instance.app_server: Still creating... [20s elapsed]
+aws_instance.app_server: Still creating... [30s elapsed]
+aws_instance.app_server: Creation complete after 36s [id=i-01e03375ba238b384]
+
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+```
+
+Bize vereceği ekran çıktısı bu olacaktır günün sonunda. AWS ekranlarınıza giderek EC2 modülü altından oluşturulmuş instanceları görebilirsiniz. 
+
+Bu oluşturmalar sonrasında ilk **terraform.tfstate** dosyası proje dizininizde yaratılmış olacaktır.
+
+```plaintext
+terraform destroy      # Terraform ile oluşturulmuş tüm instanceları ve diğer resourceleri siler
+```
+
+Tüm işlemleriniz sonrasında **terraform destroy** komutu ile oluşturduğunuz resourceleri temizlemelisiniz ki öğrenme sürecinde boş yere ödeme yapmayasınız. :) Ek olarak yukarıda bahsedilen terraform.tfstate ile ilgili ek bilgiler veriyoruz.
+
+#### Terraform State Nedir? _(Bu sorunun cevabı ChatGPT tarafından yazılmıştır.)_
+
+Terraform state, Terraform tarafından yönetilen altyapı kaynaklarının durumunu ve yapılandırmasını içeren bir bilgi deposudur. Terraform state, kullanıcıların altyapılarını yönetmelerini kolaylaştırmak ve güncel durumu anlamalarına yardımcı olmak için önemlidir. State dosyaları, Terraform'un hangi kaynakları yönettiğini ve bu kaynakların hangi durumda olduğunu izler.
+
+Terraform state dosyaları genellikle bir .tfstate uzantılı dosya olarak saklanır. Bu dosya, bir bulut sağlayıcısında veya yerel bir veritabanında tutulabilir. Terraform state dosyası, kullanıcıların belirli bir altyapının durumu hakkında bilgi sahibi olmalarına ve kaynakları güncellemeleri, silmeleri veya yeniden oluşturmaları gerektiğinde güvenle işlem yapmalarına yardımcı olur.
+
+Terraform state dosyası ayrıca, birden çok kullanıcının aynı altyapıyı yönettiği durumlarda koordinasyonu sağlamak için kullanılır. Eğer bir ekip üzerinde çalışılıyorsa, Terraform state'i paylaşılarak ekip üyelerinin altyapı üzerinde uyumlu bir şekilde çalışmalarına olanak tanır.
 
 Kaynak: [https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build)
