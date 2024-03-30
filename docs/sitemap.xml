@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.hunk.ar/</loc>
+    <loc>https://hunk.ar/</loc>
     <lastmod>2023-12-31T09:03:20-08:00</lastmod>
   </url><url>
-    <loc>https://blog.hunk.ar/posts/</loc>
+    <loc>https://hunk.ar/posts/</loc>
     <lastmod>2023-12-31T09:03:20-08:00</lastmod>
   </url><url>
-    <loc>https://blog.hunk.ar/posts/ilk-adimlar/</loc>
+    <loc>https://hunk.ar/posts/ilk-adimlar/</loc>
     <lastmod>2023-12-31T09:03:20-08:00</lastmod>
   </url><url>
-    <loc>https://blog.hunk.ar/posts/terraform-kurulum/</loc>
+    <loc>https://hunk.ar/posts/terraform-kurulum/</loc>
     <lastmod>2023-12-14T09:03:20-08:00</lastmod>
   </url><url>
-    <loc>https://blog.hunk.ar/posts/iac-nedir/</loc>
+    <loc>https://hunk.ar/posts/iac-nedir/</loc>
     <lastmod>2023-12-10T09:03:20-08:00</lastmod>
   </url><url>
-    <loc>https://blog.hunk.ar/categories/</loc>
+    <loc>https://hunk.ar/categories/</loc>
   </url><url>
-    <loc>https://blog.hunk.ar/tags/</loc>
+    <loc>https://hunk.ar/tags/</loc>
   </url>
 </urlset>

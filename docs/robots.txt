@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://blog.hunk.ar/sitemap.xml
+Sitemap: https://hunk.ar/sitemap.xml

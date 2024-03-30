@@ -1,4 +1,4 @@
-baseURL: "https://blog.hunk.ar/"
+baseURL: "https://hunk.ar/"
 title: Hünkar Döner
 paginate: 5
 theme: PaperMod
@@ -18,7 +18,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: blog.hunk.ar
+  title: hunk.ar
   description: "Hoşgeldiniz."
   keywords: [Blog, Portfolio, Observability]
   author: Me
