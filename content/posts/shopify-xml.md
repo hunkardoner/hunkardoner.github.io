@@ -2,7 +2,7 @@
 title: "Shopify 101: Ürünler XML Dosyası Oluşturma"
 date: 2024-04-01T09:03:20-08:00
 draft: false
-tag: ["terraform"]
+tag: ["shopify, e-commerce"]
 ---
 
 
