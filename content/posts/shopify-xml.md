@@ -1,3 +1,11 @@
+---
+title: "Shopify 101: Ürünler XML Dosyası Oluşturma"
+date: 2024-04-01T09:03:20-08:00
+draft: false
+tag: ["terraform"]
+---
+
+
 Shopify kullanıcıları için bir çok işlem zulüm gelmekte. Yazılımcısını bulmak dert, müdahale edilebilirliği minimum düzeyde vs vs. Liquid zaten yaygın değil, işin ucundan tutmaya çalışan birinin bile çok kaynak bulamayacağı bir dil. Ama bakınca çok basit. Bugün ihtiyaç dahilinde kullanmak durumunda kaldığım bir koddan bahsedeceğim. 
 
 ```css
