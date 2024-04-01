@@ -5,7 +5,7 @@ draft: false
 tag: ["terraform"]
 ---
 
-Bir önceki yazımızda [IaC nedir](https://blog.hunk.ar/posts/iac-nedir/), ne değildir, Terraform ne işe yarar gibi kısa bir özet geçtik. 
+Bir önceki yazımızda [IaC nedir](https://hunk.ar/posts/iac-nedir/), ne değildir, Terraform ne işe yarar gibi kısa bir özet geçtik. 
 
 Yazılarımın asıl kaynağı terraform.io platformu. Oradaki dökümantasyonu Türkçe'ye çevirme ve ihtiyacımız olanları öne çıkarma taraftarıyım. Kafa karıştırma ihtimali olan kısımları dahil etmeyeceğim seriye. En basit düzeyde, ihtiyacımız kadar kullanacağız her aracı. Şahsi mentalitem bu, size dayatma gibi bir planım yok. Anlatacağım tüm yazılardaki araçların, dillerin hepsinin resmi dökümantasyonlarında daha fazla bilgiye erişebilirsiniz. Benim buradaki amacım DevOps Türkçe kaynağını arttırabilmek.
 
