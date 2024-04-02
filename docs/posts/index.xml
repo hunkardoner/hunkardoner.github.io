@@ -13,6 +13,15 @@
     <language>tr-TR</language>
     <lastBuildDate>Mon, 01 Apr 2024 09:03:20 -0800</lastBuildDate><atom:link href="https://hunk.ar/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Shopify 101: Ürünler XML Dosyası Oluşturma</title>
+      <link>https://hunk.ar/posts/shopify-xml/</link>
+      <pubDate>Mon, 01 Apr 2024 09:03:20 -0800</pubDate>
+      
+      <guid>https://hunk.ar/posts/shopify-xml/</guid>
+      <description>Shopify kullanıcıları için bir çok işlem zulüm gelmekte. Yazılımcısını bulmak dert, müdahale edilebilirliği minimum düzeyde vs vs. Liquid zaten yaygın değil, işin ucundan tutmaya çalışan birinin bile çok kaynak bulamayacağı bir dil. Ama bakınca çok basit. Bugün ihtiyaç dahilinde kullanmak durumunda kaldığım bir koddan bahsedeceğim. {% layout none %}&amp;lt;?xml version=&amp;#34;1.0&amp;#34;?&amp;gt; &amp;lt;rss xmlns:g=&amp;#34;http://base.google.com/ns/1.0&amp;#34; version=&amp;#34;2.0&amp;#34;&amp;gt; {% paginate collection.products by 1000 %} {%- assign useSEOtitle = false -%} {%- assign useSEOdescription = true -%} {%- comment -%} TODO: Move this into a snippet and use capture to assign the variable {%- endcomment -%} {%- case shop.</description>
+    </item>
+    
+    <item>
       <title>Terraform 101: İlk Adımlar</title>
       <link>https://hunk.ar/posts/ilk-adimlar/</link>
       <pubDate>Sun, 31 Dec 2023 09:03:20 -0800</pubDate>
