@@ -3,7 +3,7 @@ title: Hünkar Döner
 paginate: 5
 theme: PaperMod
 publishDir: "docs"
-languageCode: "tr-TR"
+languageCode: "tr-tr"
 
 enableRobotsTXT: true
 buildDrafts: false

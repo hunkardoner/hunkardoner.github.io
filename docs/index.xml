@@ -10,8 +10,18 @@
       <link>https://hunk.ar/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>tr-TR</language>
-    <lastBuildDate>Mon, 01 Apr 2024 09:03:20 -0800</lastBuildDate><atom:link href="https://hunk.ar/index.xml" rel="self" type="application/rss+xml" />
+    <language>tr-tr</language>
+    <lastBuildDate>Mon, 22 Apr 2024 09:03:20 -0800</lastBuildDate><atom:link href="https://hunk.ar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitOps 101: GitOps Nedir? Minikube Üzerinde ArgoCD Kurulumu</title>
+      <link>https://hunk.ar/posts/gitops-ve-argocd/</link>
+      <pubDate>Mon, 22 Apr 2024 09:03:20 -0800</pubDate>
+      
+      <guid>https://hunk.ar/posts/gitops-ve-argocd/</guid>
+      <description>Bugün GitOps ve ArgoCD hakkında konuşacağız. Konuşmaktan ziyade yaptığım pratikleri sizlere aktarmaya çalışacağım. Yapacağımız işlem ArgoCD kurulumunu Minikube üzerinde çalıştırmak. İlerleyen yazılarda örnek projelerle de ArgoCD üzerinden Kubernetes projelerini yönetme üzerine bir kaç çalışmayı aktarmak istiyorum. Bakalım fırsat olursa onları da deneyeceğiz.
+GitOps nedir? GitOps, sürekli entegrasyon/sürekli dağıtım (CI/CD) ve sürüm kontrolü gibi DevOps uygulamalarına dayanan bir işletim çerçevesidir. Altyapıyı otomatikleştirir ve yazılım dağıtımını yönetir. Geliştiricilere altyapının istenen durumunu depolama ve bunu kullanarak işletme süreçlerini otomatikleştirme imkanı sağlar.</description>
+    </item>
+    
     <item>
       <title>Shopify 101: Ürünler XML Dosyası Oluşturma</title>
       <link>https://hunk.ar/posts/shopify-xml/</link>
