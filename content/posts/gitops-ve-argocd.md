@@ -37,7 +37,7 @@ Bu kurulumları tamamladıktan sonra Docker üzerinde bir işlem yapmanız gerek
 brew install kubectl
 ```
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/978e39ef0d85c9df15b53947b8e61585d73a09ad7ab5dc53.png)
+![](/images/1-gitops-ve-argocd.png)
 
 Hemen ardından hızlı şekilde Kubernetes projelerinizi CLI üzerinden yönetmenizi sağlayacağınız **kubectl** aracını ve projeleri dockerda rahatça çaışabileceğiniz **minikube** ortamını kuruyoruz.
 
@@ -57,13 +57,13 @@ kubectl version
 
 Sırayla kurduğumuz bu araçların sorunsuzca yüklenip yüklenmediğini kontrol ediyoruz.
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/e705a924432e279d3696f1aa3c834ae28254343e4e8ac5e8.png)
+![](/images/2-gitops-ve-argocd.png)
 
 Hemen ardından minikube ayağa kaldırıyoruz, komutumuz: **minikube start**
 
 Done yazısını gördüğümüzde sorunsuz ayağa kalktığını görüyoruz.
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/5580214ea4f1bbdd89c97e3fc37a18d3435fc066993486ed.png)
+![](/images/3-gitops-ve-argocd.png)
 
 ArgoCD için Namespace oluşturuyoruz:
 
@@ -83,7 +83,7 @@ Göreceğiniz üzere **kubectl** komutunu kullan -n parametresi ile ismi **argoc
 kubectl get all -n argocd
 ```
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/3cdcc6c99a41f27371be0dad0038194ed02f73f3f545235d.png)
+![](/images/4-gitops-ve-argocd.png)
 
 Bu şekilde **argocd namespace'inin** ayakta olduğunu görebilirsiniz. Artık erişmek için sadece 443 portuna erişim sağlayacağız. Üç farklı yöntem var bunun için isterseniz [https://argo-cd.readthedocs.io/en/stable/getting_started/](https://argo-cd.readthedocs.io/en/stable/getting_started/) dökümantasyon üzerinden kontrol edebilirsiniz. Load Balancer, Ingress ve Port Forwarding, biz lokal ortamda olduğumuz için hızlı şekilde port yönlendirmesiyle ilerleyeceğiz. Ama öncesinde arayüze erişmek için **Argo CD yönetici şifresi** alma işlemini yapalım.
 
@@ -93,7 +93,7 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 
 Unix based cihazlarda çalışmanın avantajları, base64 hazır kurulu olduğu için direkt olarak şifreyi decode edebiliyoruz. Windows cihazlarda sorunla karşılaşabilirsiniz belki, denemediğim için bilmiyorum. Mac'iniz yoksa ve bu işlerle ilgiliyseniz en azından Ubuntu bilgisayar kullanın, Windows kullanmayın.
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/91972a77b8b33a0e6eda532a3ad881e313e00e490aef44ec.png)
+![](/images/5-gitops-ve-argocd.png)
 
 Görüldüğü üzere ekrana hemen şifreyi bastı, Argo CD'de kullanıcı adı otomatik olarak **admin** olarak gelmekte ve default bir şifre vermekte. Best practice olması açısından şifreyi silip yeniden bir şifre oluşturmalısınız. Bunu belki ek bir yazı olarak hazırlayabilirim. Ancak onun için **argocd** **cli** kurulu olması gerekli bilgisayarınızda. Konuyu uzatmamak için dahil etmeyelim bu sürece.
 
@@ -103,10 +103,10 @@ Evet şifremizi de altık sırada kubectl'in port-forward işlemi kaldı.
 kubectl port-forward svc/argocd-server -n argocd 8080:443
 ```
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/263baae09fb8e443c8dbcaabec9b7dd6dd4109d66bc75cdb.png)
+![](/images/6-gitops-ve-argocd.png)
 
 Sorunsuz şekilde yönlendirme işlemimiz tamamlandı [https://localhost:8080/](https://localhost:8080/) adresine giderek panel arayüzüne erişebilirsiniz. SSL ile ilgili bir problemle karşılaşabilirsiniz ama güven dedikten sonra sayfaya ilerleyin. Bununla ilgili de çözüm var ancak şifre sıfırlama ve SSL problemini ayrı bir yazıda aktaracağım daha fazla uzamasın diye.
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/9188f75a58aa5b46fe375fa70c9a8b81cca4c3f239a1a967.png)
+![](/images/7-gitops-ve-argocd.png)
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/99d17ebe18b9bd45648c504ba2fed4ddff244eeb37c040bb.png)
+![](/images/8-gitops-ve-argocd.png)
